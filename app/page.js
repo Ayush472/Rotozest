@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/page";
 import Header from "@/components/header/page";
 import Image from "next/image";
 
@@ -116,6 +117,7 @@ export default function Home() {
     <Header />
 
     <h1> ROTOZEST</h1>
+    <Footer/>
     </>
   );
 }
