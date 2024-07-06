@@ -97,9 +97,13 @@ const LendingPage = () => {
                 <span className="text-lg">ISO certified</span>
               </div>
             </div>
-            <Button name={"About Us"}/>
+            <Button
+              name={"About Us"}
+              btnStyle={
+                "px-6 py-2 bg-[#4F7EC3] text-xl	 text-white mt-2 font-bold border-[#4F7EC3] rounded-3xl"
+              }
+            />
           </div>
-
         </div>
       </section>
     </>
