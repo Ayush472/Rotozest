@@ -52,7 +52,7 @@ const LendingPage = () => {
           </div>
         </div>
         <Image
-          className="rounded-t-[50px] w-full h-[500px] aspect-[4/3] bg-white"
+          className="rounded-t-[50px] w-full h-[500px] px-[3px]		 aspect-[4/3] sm:h-64 bg-white"
           src={ledningImage}
           // height={500}
         ></Image>
