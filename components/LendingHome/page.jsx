@@ -54,12 +54,17 @@ const LendingPage = () => {
         <Image
           className="rounded-t-[50px] w-full h-[500px] px-[3px]		 aspect-[4/3] sm:h-64 bg-white"
           src={ledningImage}
+          alt={"Welcome To Our Pump Industry"}
+
           // height={500}
         ></Image>
       </div>
       <section
         className="bg-white  pt-6"
-        style={{ backgroundImage: sectionSecond }}
+        style={{
+          backgroundImage: `url(${sectionSecond.src})`,
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <Heading
           headingName={"About Our Industry"}
@@ -70,6 +75,7 @@ const LendingPage = () => {
             <Image
               className="rounded-lg aspect-[9/5]"
               src={sectionSecondAbout}
+              alt={"About Our Industry"}
             ></Image>
           </div>
           <div>

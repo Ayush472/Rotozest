@@ -46,3 +46,9 @@ body {
     linear-gradient(0deg, rgba(51, 51, 51, 0.2) 0.1em, transparent 0.1em);
   background-size: 12rem 10rem;
 }
+
+/* .main-container {
+  background: white;
+  background-image: url("../assets/images/bg-1.png");
+  background-repeat: no-repeat, repeat;
+} */

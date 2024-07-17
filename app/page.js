@@ -1,6 +1,7 @@
+import IndustryWeServe from "@/components/IndustriesWeServe/page";
 import LendingPage from "@/components/LendingHome/page";
 import Footer from "@/components/footer/page";
-import Header from "@/components/header/page";
+import Header from "@/components/header/Header";
 import Image from "next/image";
 
 export default function Home() {
@@ -115,6 +116,7 @@ export default function Home() {
     <>
       <Header />
       <LendingPage></LendingPage>
+      <IndustryWeServe/>
       {/* <h1> ROTOZEST</h1> */}
       <Footer />
     </>
