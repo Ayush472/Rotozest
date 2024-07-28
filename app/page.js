@@ -2,6 +2,7 @@ import IndustryWeServe from "@/components/IndustriesWeServe/page";
 import LendingPage from "@/components/LendingHome/page";
 import Footer from "@/components/footer/page";
 import Header from "@/components/header/Header";
+import Head from "next/head";
 import Image from "next/image";
 
 export default function Home() {
@@ -114,6 +115,11 @@ export default function Home() {
     //   </div>
     // </main>
     <>
+     <Head>
+        <title>Rotozest Industries - Rotary Gear Pumps</title>
+        <meta name="description" content="Explore high-quality rotary gear pumps from Rotozest Industries, suitable for industrial, pharmaceutical, and food applications." />
+        <meta name="keywords" content="Rotary gear pump, Stainless steel pump, Self-priming pump, Positive displacement pump, Industrial pumps, SS-316 pump, Viscous liquid pump, Food product pump, Pharmaceutical pump, Chemical pump" />
+      </Head>
       <Header />
       <LendingPage></LendingPage>
       <IndustryWeServe/>
