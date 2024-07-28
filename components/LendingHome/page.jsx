@@ -21,7 +21,7 @@ const LendingPage = () => {
     <>
       <div>
         <div className="text-center font-bold text-4xl mt-14 mb-10">
-          <div className="flex justify-center space-x-2">
+          {/* <div className="flex justify-center space-x-2">
             {words1.map((word, index) => (
               <motion.span
                 key={word}
@@ -49,7 +49,9 @@ const LendingPage = () => {
                 {word}
               </motion.span>
             ))}
-          </div>
+          </div> */}
+          <h1>Welcome to our </h1>
+          <h1>Pumps industry</h1>
         </div>
         <Image
           className="rounded-t-[50px] w-full h-[500px] px-[3px]		 aspect-[4/3] sm:h-64 bg-white"

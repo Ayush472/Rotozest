@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-[#333333] shadow-md">
-        <div className="container mx-auto px-20 py-10 flex justify-between items-center">
+        <div className="flex flex-col-3">
           <div className="w-1/3 px-3">
             <Image src={Logo} alt={"Rotozest Logo"} />
             <div className="text-white	">
@@ -26,7 +26,7 @@ const Footer = () => {
             <h1 className="text-white text-start font-bold text-lg py-3">
               Quick Links
             </h1>
-            <div>
+            <h4>
               <Link
                 className="text-white text-start font-medium text-base py-3"
                 href="/"
@@ -34,8 +34,8 @@ const Footer = () => {
                 {" "}
                 Home
               </Link>
-            </div>
-            <div>
+            </h4>
+            <h4>
               <Link
                 className="text-white text-start font-medium text-base py-3"
                 href="/"
@@ -43,8 +43,8 @@ const Footer = () => {
                 {" "}
                 About
               </Link>
-            </div>{" "}
-            <div>
+            </h4>{" "}
+            <h4>
               <Link
                 className="text-white text-start font-medium text-base py-3"
                 href="/"
@@ -52,14 +52,14 @@ const Footer = () => {
                 {" "}
                 Contact Us
               </Link>
-            </div>
+            </h4>
           </div>
           <div className="w-1/3">
             <h1 className="text-white text-start font-bold text-lg py-3">
               Reach Us At{" "}
             </h1>
-            <div className="flex my-2">
-              <Image src={callLogo} className="mr-2" alt="+91 9974017582" />
+            <div className="flex py-2">
+              <Image src={callLogo} className="pr-2" alt="+91 9974017582" />
 
               <Link
                 className="text-white text-start font-medium text-base py-3"
@@ -69,10 +69,10 @@ const Footer = () => {
                 +91 9974017582
               </Link>
             </div>
-            <div className="flex my-2">
+            <div className="flex py-2">
               <Image
                 src={callLogo}
-                className="mr-2"
+                className="pr-2"
                 alt="+91 9974017583"
               />
 
@@ -84,8 +84,8 @@ const Footer = () => {
                 +91 9974017583
               </Link>
             </div>
-            <div className="flex my-2">
-              <Image src={emailLogo} className="mr-2" alt="info@rotozest.com" />
+            <div className="flex py-2">
+              <Image src={emailLogo} className="pr-2" alt="info@rotozest.com" />
 
               <Link
                 className="text-white text-start font-medium text-base py-3"
