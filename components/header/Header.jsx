@@ -160,7 +160,12 @@ const Header = () => {
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-6 md:px-20 py-3 flex justify-between items-center">
         <div className="flex items-center">
-          <Image src={Logo} alt="Logo" width={200} />
+          <Link
+            href="/"
+            className="block text-gray-800 hover:text-gray-600 text-xl"
+          >
+            <Image src={Logo} alt="Logo" width={200} />
+          </Link>
         </div>
         <nav className="hidden lg:flex items-center space-x-4">
           <Link href="/" className="text-gray-800 hover:text-gray-600">
@@ -178,7 +183,7 @@ const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="text-gray-800 hover:text-gray-600 focus:outline-none"
           >
-            <CiMenuBurger className="w-6 h-6" />
+            <CiMenuBurger className="w-8 h-8" size={30}/>
           </button>
         </div>
       </div>

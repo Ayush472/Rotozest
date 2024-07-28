@@ -131,17 +131,20 @@ const IndustryWeServe = () => {
       }}
     >
       <section title="Industries that we serve">
-        <Heading headingName={"Industries that we serve"} headingPosition={"center"} />
+        <Heading
+          headingName={"Industries that we serve"}
+          headingPosition={"center"}
+        />
       </section>
       <section className="card-container-indsturaction">
         {dataObject.map((item, index) => (
           <div
             className={`container mx-auto px-4 py-3 flex flex-col ${
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-            } gap-8 items-center`}
+            } md:gap-8 `}
             key={index}
           >
-            <div className="image-container flex-1">
+            <div className="image-container flex-1 md:items-start">
               <Image
                 src={item.image}
                 className="rounded-lg w-full h-auto max-h-72 object-cover"
