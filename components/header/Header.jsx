@@ -210,7 +210,7 @@ const Header = () => {
           </div>
           <button
             onClick={() => setIsMenuOpen(false)}
-            className="text-gray-800 hover:text-gray-600 focus:outline-none"
+            className="text-gray-800 hover:text-gray-600 focus:outline-none flex items-start"
           >
             <RxCross1 className="w-6 h-6" />
           </button>

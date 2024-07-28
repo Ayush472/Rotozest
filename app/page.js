@@ -121,8 +121,6 @@ export default function Home() {
           name="title"
           content="Rotary Gear Pump, Rotary Pump, Gear Pump | Rotozest Industries"
         />
-        <meta name="description" content="Explore high-quality rotary gear pumps from Rotozest Industries, suitable for industrial, pharmaceutical, and food applications." />
-        <meta name="keywords" content="Rotary gear pump, Stainless steel pump, Self-priming pump, Positive displacement pump, Industrial pumps, SS-316 pump, Viscous liquid pump, Food product pump, Pharmaceutical pump, Chemical pump" />
       </Head>
       <Header />
       <LendingPage></LendingPage>

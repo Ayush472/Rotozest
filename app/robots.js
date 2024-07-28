@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://www.rotozest.com/sitemap.js",
+    sitemap: "https://www.rotozest.com/sitemap",
   };
 }
