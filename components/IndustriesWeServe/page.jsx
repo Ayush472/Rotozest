@@ -39,10 +39,13 @@ const IndustryWeServe = () => {
         backgroundRepeat: "no-repeat, no-repeat",
       }}
     >
+    <section title="Industries that we serve">
+
       <Heading
         headingName={"Industries that we serve"}
         headingPostion={"center"}
       />
+    </section>
       <section className="card-container-indsturaction">
         {dataObject.map((item, index) => (
           <div className="container mx-auto px-40 py-3 flex gap-8" key={index}>
