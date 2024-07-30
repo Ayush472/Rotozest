@@ -102,7 +102,7 @@ const LendingPage = () => {
         <h1>Pumps Industry</h1>
       </div>
       <Image
-        className="rounded-t-[25px] w-full h-auto max-h-72 object-cover"
+        className="rounded-t-[25px] w-full h-auto max-h-[25rem] object-cover"
         src={ledningImage}
         alt="Welcome To Our Pump Industry"
       />
