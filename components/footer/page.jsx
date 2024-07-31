@@ -116,7 +116,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="bg-[#333333] shadow-md py-6">
+      <footer className="bg-[#333333] shadow-md py-6 px-6">
         <div className="container mx-auto flex flex-wrap md:flex-nowrap">
           <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
             <Image src={Logo} alt={"Rotozest Logo"} />

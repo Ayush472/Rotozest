@@ -123,7 +123,7 @@ const dataObject = [
 const IndustryWeServe = () => {
   return (
     <div
-      className="main-container mx-auto bg-white px-14"
+      className="main-container mx-auto bg-white px-14 md:px-2 sm:px-2 xs:px-2"
       style={{
         backgroundImage: `url(${bgImage?.src}), url(${bgImage2?.src})`,
         backgroundPosition: "top left, bottom right",
@@ -141,7 +141,7 @@ const IndustryWeServe = () => {
           <div
             className={`container mx-auto px-4 py-3 flex flex-col ${
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-            } md:gap-8 `}
+            } md:gap-8  xs:max-w-full	`}
             key={index}
           >
             <div className="image-container flex-1 md:items-start">

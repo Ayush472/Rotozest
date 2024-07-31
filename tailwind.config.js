@@ -13,6 +13,15 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    screens: {
+      xs: "320px",
+      // You can also keep the default breakpoints or customize them as needed
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     // screens: {
     //   'sm': {'min': '320px', 'max': '767px'},
     //   // => @media (min-width: 640px and max-width: 767px) { ... }
