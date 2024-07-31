@@ -248,7 +248,7 @@ const ContactForm = () => {
             <p className="mb-2">
               <FaMapMarkerAlt className="inline mr-2" />
               <a
-                href="https://maps.google.com/?q=123+Main+St%2C+Anytown%2C+USA"
+                href="https://www.google.com/maps/place/Rotozest+industries/@22.9908531,72.6420576,17z/data=!3m1!4b1!4m6!3m5!1s0x395e875e3eeb29ab:0x3165aaf70cc5bb7e!8m2!3d22.9908532!4d72.6469285!16s%2Fg%2F11w25gx4yt?entry=ttu"
                 target="_blank"
                 rel="noopener noreferrer"
               >
