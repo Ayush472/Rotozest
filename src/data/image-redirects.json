@@ -1,0 +1,802 @@
+[
+ {
+  "source": "/wp-content/uploads/2022/05/01_projects-150x150.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/01_projects-300x300.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/01_projects-460x460.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/02_breadcrumb-header.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/02_projects-150x150.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/02_projects-300x300.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/02_projects-460x460.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/03_projects-150x150.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/03_projects-300x300.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/03_projects-460x460.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/04_projects-150x150.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/04_projects-300x300.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/04_projects-460x460.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/05_projects-150x150.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/05_projects-300x300.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/05_projects-460x460.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/06_projects-150x150.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/06_projects-300x300.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/06_projects-460x460.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/08_blog-1-700x425.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/08_blog-1-767x548.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/Registered-logo.png",
+  "destination": "/images/registered-logo.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2022/05/logo.png",
+  "destination": "/images/logo.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2022/06/07_projects-150x150.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/06/07_projects-300x300.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/06/07_projects-460x460.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/06/08_projects-150x150.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/06/08_projects-300x300.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2022/06/08_projects-460x460.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/11.png",
+  "destination": "/images/11.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/12-1.png",
+  "destination": "/images/12-1.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/13.png",
+  "destination": "/images/13.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/14.png",
+  "destination": "/images/14.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/15.png",
+  "destination": "/images/15.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/16.png",
+  "destination": "/images/16.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/17.png",
+  "destination": "/images/17.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/454464.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/about-300x263.png",
+  "destination": "/images/about.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/about-600x525.png",
+  "destination": "/images/about.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/about-768x672.png",
+  "destination": "/images/about.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/about-us.png",
+  "destination": "/images/about-us.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/about.png",
+  "destination": "/images/about.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/agriculture-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/agriculture-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/agriculture-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/agriculture.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/badge-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/badge-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/badge-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/badge.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/chemical-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/chemical-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/chemical-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/chemical.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/cosmetic-industry-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/cosmetic-industry-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/cosmetic-industry-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/cosmetic-industry.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/customer-centricity-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/customer-centricity-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/customer-centricity-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/customer-centricity.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/environmental-pollution-factory-exterior-scaled.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/favicon.png",
+  "destination": "/images/favicon.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/food-and-beverage-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/food-and-beverage-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/food-and-beverage-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/food-and-beverage.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/global-marketing-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/global-marketing-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/global-marketing-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/global-marketing.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/innovation-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/innovation-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/innovation-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/innovation.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/integration-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/integration-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/integration-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/integration.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/lubrication-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/lubrication-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/lubrication-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/lubrication.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/oil-and-gas-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/oil-and-gas-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/oil-and-gas-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/oil-and-gas.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/pharmaceutical-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/pharmaceutical-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/pharmaceutical-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/pharmaceutical.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/save-the-world-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/save-the-world-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/save-the-world-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/save-the-world.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/security-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/security-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/security-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/security.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/shield-1-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/shield-1-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/shield-1-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/shield-1.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/veracity-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/veracity-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/veracity-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/veracity.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/worker-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/worker-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/worker-460x460.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/01/worker.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/02/22.jpg",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/05/ci-rotary-gear-pump-150x150.png",
+  "destination": "/images/ci-rotary-gear-pump.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/05/ci-rotary-gear-pump-300x300.png",
+  "destination": "/images/ci-rotary-gear-pump.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/05/ci-rotary-gear-pump.png",
+  "destination": "/images/ci-rotary-gear-pump.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/05/elementor/thumbs/ci-rotary-gear-pump-r5eexvupmbsyxdf6l8q6f6q8sobpt4idpbwdp74zww.png",
+  "destination": "/images/ci-rotary-gear-pump.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/05/elementor/thumbs/ci-rotary-gear-pump-r5eexvuqu6lejdkx05lcj9klu0jcgvq3l4hjulm7y0.png",
+  "destination": "/images/ci-rotary-gear-pump.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/05/ss-rotary-gear-pump.png",
+  "destination": "/images/ss-rotary-gear-pump.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/05/stainless-steel-rotary-gear-pump.png",
+  "destination": "/images/stainless-steel-rotary-gear-pump.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/custom-1-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/custom-1-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/custom-1.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/manufacturing-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/manufacturing-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/manufacturing.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/support-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/support-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/support.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/transport-150x150.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/transport-300x300.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/06/transport.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/CE-150x150.png",
+  "destination": "/images/ce.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/CE-300x300.png",
+  "destination": "/images/ce.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/CE.png",
+  "destination": "/images/ce.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/GEAC-150x150.png",
+  "destination": "/images/geac.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/GEAC-300x300.png",
+  "destination": "/images/geac.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/GEAC.png",
+  "destination": "/images/geac.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/RICL-150x150.png",
+  "destination": "/images/ricl.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/RICL-300x300.png",
+  "destination": "/images/ricl.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/RICL.png",
+  "destination": "/images/ricl.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/UAF-150x150.png",
+  "destination": "/images/uaf.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/UAF-300x300.png",
+  "destination": "/images/uaf.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2025/09/UAF.png",
+  "destination": "/images/uaf.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry-1-300x182.png",
+  "destination": "/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry-1.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry-1.png",
+  "destination": "/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry-1.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry-300x182.jpg",
+  "destination": "/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry.jpg",
+  "destination": "/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2026/03/ss-rotary-gear-pump-600-300x300.png",
+  "destination": "/images/ss-rotary-gear-pump-600.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2026/06/Gear-Pump-for-Oil-Transfer-300x182.jpg",
+  "destination": "/images/gear-pump-for-oil-transfer.webp"
+ },
+ {
+  "source": "/wp-content/uploads/2026/06/Gear-Pump-for-Oil-Transfer.jpg",
+  "destination": "/images/gear-pump-for-oil-transfer.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/16-r1fvn5l5s8ll6o3cf22ry9rhccc15sgy6w3drtd2ag.png",
+  "destination": "/images/16.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/17-r1fvn5l5s8ll6o3cf22ry9rhccc15sgy6w3drtd2ag.png",
+  "destination": "/images/17.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/24-hours-support-r7dntng27d95ec77s4cjvurs43tw8turqf941w6zmu.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/CE-rc624d2ieuimuiz5porrvcmss4amd4z3jvyv0ydnbs.png",
+  "destination": "/images/ce.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/GEAC-rc624e0clojx64xsk76efue9di5zku2tw0mci8c95k.png",
+  "destination": "/images/geac.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/RICL-rc62a5qok2gafyk1v6yy8vz4nnq3txzicksnkds8yg.png",
+  "destination": "/images/ricl.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/UAF-rc62a6oiqwhkrkioppdktdql91lh1n38opg51nqus8.png",
+  "destination": "/images/uaf.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/agriculture-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/agriculture-r1fvn5l24o9zqfn06jin7cqfdv1r06rcbytdehi90g.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/badge-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/categories-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/chemical-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/chemical-r1fvn5l24o9zqfn06jin7cqfdv1r06rcbytdehi90g.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/ci-rotary-gear-pump-r5eexvuqu6lejdkx05lcj9klu0jcgvq3l4hjulm7y0.png",
+  "destination": "/images/ci-rotary-gear-pump.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/consult-r7dntmi80j7v2q8kxlxxbd0bipyj14r1ealmkm8dt2.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/control-system-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/cosmetic-industry-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/costumer-r7dnstd84o3z2tewnrcho2d13ry5eijcyadkp1fl5y.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/customer-centricity-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/dairy-industry-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/deal-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/done-r7dn1por2n0cbks4x1lqrwkkhtj5goxz857kjtm8km.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/efficiency-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/email-2-r7do8nx9jomeic0k4jau8wu2s6p2ao53yh8em9iyik.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/food-and-beverage-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/food-and-beverage-r1fvn5l24o9zqfn06jin7cqfdv1r06rcbytdehi90g.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/global-marketing-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/hygiene-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/innovation-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/integration-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/lubrication-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/medical-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/mission-r1fvn5l2zdf3jf7m8j1qpmu9ub2y6amims6iae9u8s.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/oil-and-gas-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/oil-and-gas-r1fvn5l24o9zqfn06jin7cqfdv1r06rcbytdehi90g.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/paint-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/paint-r1fvn5l24o9zqfn06jin7cqfdv1r06rcbytdehi90g.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/pharmaceutical-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/pharmaceutical-r1fvn5l24o9zqfn06jin7cqfdv1r06rcbytdehi90g.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/placeholder-r7do8nx9jomeic0k4jau8wu2s6p2ao53yh8em9iyik.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/shield-2-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/solution-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/ss-rotary-gear-pump-600-rkj346r6vgogd4pz2cnbqspeb3d9em6cpj8gnf3j5k.png",
+  "destination": "/images/ss-rotary-gear-pump-600.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/ss-rotary-gear-pump-r5efe5g73yv1gfyb0opx6nsrx2d0obavhmx1tzhy9k.png",
+  "destination": "/images/ss-rotary-gear-pump.webp"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/sugar-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/support-1-r7do8mzfcul46q1xa0w7of2m6stp2z1dmckx4zkcos.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/testing-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/textile-r1fvn5l1vwiti5h45z2whk4r95w9j0ifoazwkspsns.png",
+  "destination": "/"
+ },
+ {
+  "source": "/wp-content/uploads/elementor/thumbs/vision-r1fvn5l2zdf3jf7m8j1qpmu9ub2y6amims6iae9u8s.png",
+  "destination": "/"
+ }
+]

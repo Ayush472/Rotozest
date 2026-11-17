@@ -1,0 +1,186 @@
+{
+ "11": {
+  "src": "/images/11.webp",
+  "width": 1000,
+  "height": 1000,
+  "from": "/wp-content/uploads/2025/01/11.png",
+  "kb": 62,
+  "origKb": 705
+ },
+ "13": {
+  "src": "/images/13.webp",
+  "width": 1000,
+  "height": 1000,
+  "from": "/wp-content/uploads/2025/01/13.png",
+  "kb": 66,
+  "origKb": 677
+ },
+ "14": {
+  "src": "/images/14.webp",
+  "width": 1000,
+  "height": 1000,
+  "from": "/wp-content/uploads/2025/01/14.png",
+  "kb": 70,
+  "origKb": 829
+ },
+ "15": {
+  "src": "/images/15.webp",
+  "width": 1000,
+  "height": 1000,
+  "from": "/wp-content/uploads/2025/01/15.png",
+  "kb": 73,
+  "origKb": 822
+ },
+ "16": {
+  "src": "/images/16.webp",
+  "width": 1000,
+  "height": 1000,
+  "from": "/wp-content/uploads/2025/01/16.png",
+  "kb": 106,
+  "origKb": 1134
+ },
+ "17": {
+  "src": "/images/17.webp",
+  "width": 1000,
+  "height": 1000,
+  "from": "/wp-content/uploads/2025/01/17.png",
+  "kb": 72,
+  "origKb": 735
+ },
+ "registered-logo": {
+  "src": "/images/registered-logo.webp",
+  "width": 1600,
+  "height": 434,
+  "from": "/wp-content/uploads/2022/05/Registered-logo.png",
+  "kb": 42,
+  "origKb": 77
+ },
+ "logo": {
+  "src": "/images/logo.webp",
+  "width": 1600,
+  "height": 436,
+  "from": "/wp-content/uploads/2022/05/logo.png",
+  "kb": 41,
+  "origKb": 74
+ },
+ "12-1": {
+  "src": "/images/12-1.webp",
+  "width": 1000,
+  "height": 1000,
+  "from": "/wp-content/uploads/2025/01/12-1.png",
+  "kb": 92,
+  "origKb": 946
+ },
+ "about-us": {
+  "src": "/images/about-us.webp",
+  "width": 945,
+  "height": 1100,
+  "from": "/wp-content/uploads/2025/01/about-us.png",
+  "kb": 80,
+  "origKb": 740
+ },
+ "about": {
+  "src": "/images/about.webp",
+  "width": 800,
+  "height": 700,
+  "from": "/wp-content/uploads/2025/01/about.png",
+  "kb": 67,
+  "origKb": 508
+ },
+ "favicon": {
+  "src": "/images/favicon.webp",
+  "width": 512,
+  "height": 512,
+  "from": "/wp-content/uploads/2025/01/favicon.png",
+  "kb": 11,
+  "origKb": 21
+ },
+ "ci-rotary-gear-pump": {
+  "src": "/images/ci-rotary-gear-pump.webp",
+  "width": 400,
+  "height": 400,
+  "from": "/wp-content/uploads/2025/05/ci-rotary-gear-pump.png",
+  "kb": 16,
+  "origKb": 128
+ },
+ "ss-rotary-gear-pump": {
+  "src": "/images/ss-rotary-gear-pump.webp",
+  "width": 1000,
+  "height": 1000,
+  "from": "/wp-content/uploads/2025/05/ss-rotary-gear-pump.png",
+  "kb": 106,
+  "origKb": 1134
+ },
+ "stainless-steel-rotary-gear-pump": {
+  "src": "/images/stainless-steel-rotary-gear-pump.webp",
+  "width": 1000,
+  "height": 1000,
+  "from": "/wp-content/uploads/2025/05/stainless-steel-rotary-gear-pump.png",
+  "kb": 66,
+  "origKb": 677
+ },
+ "ce": {
+  "src": "/images/ce.webp",
+  "width": 700,
+  "height": 700,
+  "from": "/wp-content/uploads/2025/09/CE.png",
+  "kb": 12,
+  "origKb": 46
+ },
+ "geac": {
+  "src": "/images/geac.webp",
+  "width": 700,
+  "height": 700,
+  "from": "/wp-content/uploads/2025/09/GEAC.png",
+  "kb": 74,
+  "origKb": 369
+ },
+ "ricl": {
+  "src": "/images/ricl.webp",
+  "width": 700,
+  "height": 700,
+  "from": "/wp-content/uploads/2025/09/RICL.png",
+  "kb": 79,
+  "origKb": 405
+ },
+ "uaf": {
+  "src": "/images/uaf.webp",
+  "width": 700,
+  "height": 700,
+  "from": "/wp-content/uploads/2025/09/UAF.png",
+  "kb": 68,
+  "origKb": 281
+ },
+ "benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry-1": {
+  "src": "/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry-1.webp",
+  "width": 700,
+  "height": 425,
+  "from": "/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry-1.png",
+  "kb": 17,
+  "origKb": 89
+ },
+ "benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry": {
+  "src": "/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry.webp",
+  "width": 700,
+  "height": 425,
+  "from": "/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry.jpg",
+  "kb": 15,
+  "origKb": 28
+ },
+ "ss-rotary-gear-pump-600": {
+  "src": "/images/ss-rotary-gear-pump-600.webp",
+  "width": 600,
+  "height": 600,
+  "from": "/wp-content/uploads/2026/03/ss-rotary-gear-pump-600.png",
+  "kb": 33,
+  "origKb": 329
+ },
+ "gear-pump-for-oil-transfer": {
+  "src": "/images/gear-pump-for-oil-transfer.webp",
+  "width": 700,
+  "height": 425,
+  "from": "/wp-content/uploads/2026/06/Gear-Pump-for-Oil-Transfer.jpg",
+  "kb": 14,
+  "origKb": 25
+ }
+}

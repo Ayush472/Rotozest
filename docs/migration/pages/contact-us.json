@@ -1,0 +1,512 @@
+{
+  "url": "https://www.rotozest.com/contact-us/",
+  "path": "/contact-us/",
+  "title": "Contact Rotozest Industries | Get in Touch",
+  "html_lang": "en-US",
+  "meta": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "Content-Security-Policy": [
+      "upgrade-insecure-requests"
+    ],
+    "description": [
+      "Reach out to Rotozest Industries for inquiries about our rotary gear pumps. We're here to assist you with your industrial pumping needs."
+    ],
+    "robots": [
+      "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    ],
+    "og:locale": [
+      "en_US"
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:title": [
+      "Contact Rotozest Industries | Get in Touch"
+    ],
+    "og:description": [
+      "Reach out to Rotozest Industries for inquiries about our rotary gear pumps. We're here to assist you with your industrial pumping needs."
+    ],
+    "og:url": [
+      "https://www.rotozest.com/contact-us/"
+    ],
+    "og:site_name": [
+      "Rotozest Industries"
+    ],
+    "og:updated_time": [
+      "2025-06-16T05:49:37+00:00"
+    ],
+    "og:image": [
+      "https://www.rotozest.com/wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png"
+    ],
+    "og:image:secure_url": [
+      "https://www.rotozest.com/wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png"
+    ],
+    "og:image:alt": [
+      "Contact Rotozest"
+    ],
+    "article:published_time": [
+      "2022-05-03T07:11:11+00:00"
+    ],
+    "article:modified_time": [
+      "2025-06-16T05:49:37+00:00"
+    ],
+    "twitter:card": [
+      "summary_large_image"
+    ],
+    "twitter:title": [
+      "Contact Rotozest Industries | Get in Touch"
+    ],
+    "twitter:description": [
+      "Reach out to Rotozest Industries for inquiries about our rotary gear pumps. We're here to assist you with your industrial pumping needs."
+    ],
+    "twitter:image": [
+      "https://www.rotozest.com/wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png"
+    ],
+    "twitter:label1": [
+      "Time to read"
+    ],
+    "twitter:data1": [
+      "Less than a minute"
+    ],
+    "generator": [
+      "WordPress 6.7.11",
+      "Site Kit by Google 1.184.0",
+      "Redux 4.5.13",
+      "Elementor 3.27.2; features: additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap",
+      "Powered by Slider Revolution 6.7.23 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."
+    ],
+    "google-site-verification": [
+      "f7oXrm8neJKLtApXqnSvCDKCZgVooLRixanrmHh-zp4"
+    ]
+  },
+  "head_links": [
+    {
+      "rel": "canonical",
+      "href": "https://www.rotozest.com/contact-us/",
+      "hreflang": null,
+      "type": null,
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/feed/",
+      "hreflang": null,
+      "type": "application/rss+xml",
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/comments/feed/",
+      "hreflang": null,
+      "type": "application/rss+xml",
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/wp-json/wp/v2/pages/84",
+      "hreflang": null,
+      "type": "application/json",
+      "sizes": null
+    },
+    {
+      "rel": "shortlink",
+      "href": "https://www.rotozest.com/?p=84",
+      "hreflang": null,
+      "type": null,
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rotozest.com%2Fcontact-us%2F",
+      "hreflang": null,
+      "type": "application/json+oembed",
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rotozest.com%2Fcontact-us%2F&format=xml",
+      "hreflang": null,
+      "type": "text/xml+oembed",
+      "sizes": null
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.rotozest.com/wp-content/uploads/2025/01/favicon.png",
+      "hreflang": null,
+      "type": "image/png",
+      "sizes": null
+    }
+  ],
+  "jsonld": [],
+  "tracking_ids": [
+    "G-GLK4YTC4EE",
+    "GTM-55ZFLFT4"
+  ],
+  "headings_all": [
+    [
+      "h1",
+      "Contact Us"
+    ],
+    [
+      "h3",
+      "Got Questions? Let’s Get In Touch!"
+    ],
+    [
+      "h3",
+      "Download Our Brochure Today!"
+    ],
+    [
+      "h4",
+      "Our Products"
+    ],
+    [
+      "h4",
+      "Certifications"
+    ],
+    [
+      "h4",
+      "Reach Us"
+    ],
+    [
+      "h2",
+      "Inquiry Now"
+    ]
+  ],
+  "h1": [
+    "Contact Us"
+  ],
+  "word_count_main": 65,
+  "blocks": [
+    {
+      "t": "h1",
+      "text": "Contact Us"
+    },
+    {
+      "t": "li",
+      "text": "Home"
+    },
+    {
+      "t": "li",
+      "text": "Contact Us"
+    },
+    {
+      "t": "iframe",
+      "src": "about:blank",
+      "title": null
+    },
+    {
+      "t": "h3",
+      "text": "Got Questions? Let’s Get In Touch!"
+    },
+    {
+      "t": "p",
+      "text": "If you have any questions about our products, don’t hesitate to reach out. We’re here to assist and will get back to you as soon as possible.",
+      "html": null
+    },
+    {
+      "t": "form",
+      "action": "/contact-us/#wpcf7-f1030-p84-o1",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "your-name",
+          "placeholder": "Name",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "email",
+          "name": "your-email",
+          "placeholder": "Email",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "your-number",
+          "placeholder": "Phone",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "your-subject",
+          "placeholder": "Requirement",
+          "required": true
+        },
+        {
+          "tag": "textarea",
+          "type": null,
+          "name": "your-message",
+          "placeholder": "Write Your Message Here...",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "f12_captcha",
+          "placeholder": "?",
+          "required": false
+        }
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Submit",
+      "html": null
+    },
+    {
+      "t": "p",
+      "text": "8 * 2 = ?",
+      "html": "<p><span class=\"wpcf7-form-control-wrap\"><div class=\"f12-captcha template-1\">\n<label for=\"c_9c75805ae2f416fc97c4\"><div class=\"c-label\"></div><div class=\"c-header\"><div class=\"c-input\"><div class=\"c-data\"><span class=\"captcha-calculation\">8 * 2 = ?</span></div><div class=\"\">\n<input class=\"f12c\" data-method=\"math\" id=\"c_9c75805ae2f416fc97c4\" name=\"f12_captcha\" placeholder=\"?\" type=\"text\" value=\"\"/></div></div><div class=\"c-reload\"><a class=\"cf7 captcha-reload\" href=\"javascript:void(0);\" title=\"Reload Captcha\"><img alt=\"Reload\" data-lazyloaded=\"1\" data-src=\"https://www.rotozest.com/wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png\" decoding=\"async\" height=\"16\" loading=\"lazy\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==\" style=\"margin-top:5px;\" width=\"16\"/></a></div></div><input id=\"hash_c_9c75805ae2f416fc97c4\" name=\"f12_captcha_hash\" type=\"hidden\" value=\"$2y$10$35DKkCz/ZEO76/C4RVPC5uwbOFq.KvuI5n8nFTa1zR/vXK.FWgDy6\"/>\n</label></div>\n</span></p>"
+    },
+    {
+      "t": "img",
+      "src": "https://www.rotozest.com/wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png",
+      "alt": "Reload",
+      "title": null,
+      "w": "16",
+      "h": "16",
+      "srcset": ""
+    },
+    {
+      "t": "img",
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/support-1-r7do8mzfcul46q1xa0w7of2m6stp2z1dmckx4zkcos.png",
+      "alt": "Call",
+      "title": "support (1)",
+      "w": "70",
+      "h": "70",
+      "srcset": ""
+    },
+    {
+      "t": "li",
+      "text": "+91 99740 17583"
+    },
+    {
+      "t": "span",
+      "cls": "elementor-icon-list-text",
+      "text": "+91 99740 17583"
+    },
+    {
+      "t": "li",
+      "text": "+91 99740 17582"
+    },
+    {
+      "t": "span",
+      "cls": "elementor-icon-list-text",
+      "text": "+91 99740 17582"
+    },
+    {
+      "t": "img",
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/email-2-r7do8nx9jomeic0k4jau8wu2s6p2ao53yh8em9iyik.png",
+      "alt": "Email",
+      "title": "email (2)",
+      "w": "70",
+      "h": "70",
+      "srcset": ""
+    },
+    {
+      "t": "li",
+      "text": "info@rotozest.com"
+    },
+    {
+      "t": "span",
+      "cls": "elementor-icon-list-text",
+      "text": "info@rotozest.com"
+    },
+    {
+      "t": "img",
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/placeholder-r7do8nx9jomeic0k4jau8wu2s6p2ao53yh8em9iyik.png",
+      "alt": "Location",
+      "title": "placeholder",
+      "w": "70",
+      "h": "70",
+      "srcset": ""
+    },
+    {
+      "t": "li",
+      "text": "Shed A/19 Parth Estate, Nr. Muktanand Society, Canal Road, Jamfalwadi, Ramol, Ahmedabad - 382449."
+    },
+    {
+      "t": "span",
+      "cls": "elementor-icon-list-text",
+      "text": "Shed A/19 Parth Estate, Nr. Muktanand Society, Canal Road, Jamfalwadi, Ramol, Ahmedabad - 382449."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/Registered-logo.png",
+      "alt": "Rotozest Logo",
+      "w": "3174",
+      "h": "860",
+      "srcset": "",
+      "in": "header"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/Registered-logo.png",
+      "alt": "Rotozest Logo",
+      "w": "3174",
+      "h": "860",
+      "srcset": "",
+      "in": "header"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/logo.png",
+      "alt": "Rotozest Industries",
+      "w": "3158",
+      "h": "860",
+      "srcset": "",
+      "in": "header"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/logo.png",
+      "alt": "Logo",
+      "w": "3158",
+      "h": "860",
+      "srcset": "",
+      "in": "header"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png",
+      "alt": "Reload",
+      "w": "16",
+      "h": "16",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/support-1-r7do8mzfcul46q1xa0w7of2m6stp2z1dmckx4zkcos.png",
+      "alt": "Call",
+      "w": "70",
+      "h": "70",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/email-2-r7do8nx9jomeic0k4jau8wu2s6p2ao53yh8em9iyik.png",
+      "alt": "Email",
+      "w": "70",
+      "h": "70",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/placeholder-r7do8nx9jomeic0k4jau8wu2s6p2ao53yh8em9iyik.png",
+      "alt": "Location",
+      "w": "70",
+      "h": "70",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/GEAC-rc624e0clojx64xsk76efue9di5zku2tw0mci8c95k.png",
+      "alt": "GEAC",
+      "w": "60",
+      "h": "60",
+      "srcset": "",
+      "in": "footer"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/CE-rc624d2ieuimuiz5porrvcmss4amd4z3jvyv0ydnbs.png",
+      "alt": "CE",
+      "w": "60",
+      "h": "60",
+      "srcset": "",
+      "in": "footer"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/RICL-rc62a5qok2gafyk1v6yy8vz4nnq3txzicksnkds8yg.png",
+      "alt": "RICL",
+      "w": "60",
+      "h": "60",
+      "srcset": "",
+      "in": "footer"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/UAF-rc62a6oiqwhkrkioppdktdql91lh1n38opg51nqus8.png",
+      "alt": "UAF",
+      "w": "60",
+      "h": "60",
+      "srcset": "",
+      "in": "footer"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2025/01/favicon.png",
+      "alt": null,
+      "w": "512",
+      "h": "512",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png",
+      "alt": "Reload",
+      "w": "16",
+      "h": "16",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png",
+      "alt": "Reload",
+      "w": "16",
+      "h": "16",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2025/01/environmental-pollution-factory-exterior-scaled.jpg",
+      "alt": null,
+      "in": "background"
+    }
+  ],
+  "links": {
+    "internal_paths": [
+      "",
+      "/",
+      "/about-us/",
+      "/applications/",
+      "/blog/",
+      "/careers/",
+      "/ci-rotary-gear-pump/",
+      "/contact-us/",
+      "/ss-rotary-gear-pump/",
+      "/wp-content/uploads/2025/06/rotozest-brochure.pdf"
+    ],
+    "external": [
+      "https://dsoninfotech.com/",
+      "https://maps.app.goo.gl/nCuzCyAH6anXUjVZA",
+      "https://www.facebook.com/share/19FRVK3iYE/?mibextid=qi2Omg",
+      "https://www.forge12.com",
+      "https://www.instagram.com/rotozest_industries_746?utm_source=qr&igsh=MXg4eWRld3dwdGNxMw=="
+    ],
+    "contact": [
+      "mailto:info@rotozest.com",
+      "tel:+919974017582",
+      "tel:+919974017583"
+    ]
+  },
+  "header_text": "info@rotozest.com +91 99740 17583 | +91 99740 17582 Home About Us Products SS Rotary Gear Pump Manufacturer CI Rotary Gear Pump Applications Careers Blog Contact Us Download Home About Us Products SS Rotary Gear Pump Manufacturer CI Rotary Gear Pump Applications Careers Blog Contact Us Download Home About Us Products SS Rotary Gear Pump Manufacturer CI Rotary Gear Pump Applications Careers Blog Contact Us",
+  "footer_text": "Discover More Download Our Brochure Today! Download Brochure ® Experience excellence with Rotozest Industries. Explore our premium products and services tailored to seamlessly meet your industrial needs. With a focus on innovation, quality, and reliability, we provide tailored solutions designed to enhance your operations and drive efficiency. Our Products SS Rotary Gear Pump CI Rotary Gear Pump Certifications Reach Us +91 99740 17583 +91 99740 17582 info@rotozest.com Shed A/19 Parth Estate, Nr. Muktanand Society, Canal Road, Jamfalwadi, Ramol, Ahmedabad - 382449. 2025 All Rights Reserved. Design by Dson Infotech 2026",
+  "body_classes": [
+    "page-template-default",
+    "page",
+    "page-id-84",
+    "group-blog",
+    "redux-page",
+    "site-h119",
+    "body-default-font",
+    "heading-default-font",
+    "site-404-default",
+    "elementor-default",
+    "elementor-kit-8864",
+    "elementor-page",
+    "elementor-page-84"
+  ],
+  "html_bytes": 188150,
+  "scripts": 32,
+  "stylesheets": 1
+}

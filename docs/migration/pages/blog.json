@@ -1,0 +1,455 @@
+{
+  "url": "https://www.rotozest.com/blog/",
+  "path": "/blog/",
+  "title": "Blog - Rotozest Industries",
+  "html_lang": "en-US",
+  "meta": {
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "Content-Security-Policy": [
+      "upgrade-insecure-requests"
+    ],
+    "description": [
+      "Recent Articles"
+    ],
+    "robots": [
+      "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    ],
+    "og:locale": [
+      "en_US"
+    ],
+    "og:type": [
+      "article"
+    ],
+    "og:title": [
+      "Blog - Rotozest Industries"
+    ],
+    "og:description": [
+      "Recent Articles"
+    ],
+    "og:url": [
+      "https://www.rotozest.com/blog/"
+    ],
+    "og:site_name": [
+      "Rotozest Industries"
+    ],
+    "og:updated_time": [
+      "2025-05-09T05:35:15+00:00"
+    ],
+    "og:image": [
+      "https://www.rotozest.com/wp-content/uploads/2022/05/08_blog-1.jpg"
+    ],
+    "og:image:secure_url": [
+      "https://www.rotozest.com/wp-content/uploads/2022/05/08_blog-1.jpg"
+    ],
+    "og:image:width": [
+      "1170"
+    ],
+    "og:image:height": [
+      "780"
+    ],
+    "og:image:alt": [
+      "Blog"
+    ],
+    "og:image:type": [
+      "image/jpeg"
+    ],
+    "article:published_time": [
+      "2022-05-03T07:04:32+00:00"
+    ],
+    "article:modified_time": [
+      "2025-05-09T05:35:15+00:00"
+    ],
+    "twitter:card": [
+      "summary_large_image"
+    ],
+    "twitter:title": [
+      "Blog - Rotozest Industries"
+    ],
+    "twitter:description": [
+      "Recent Articles"
+    ],
+    "twitter:image": [
+      "https://www.rotozest.com/wp-content/uploads/2022/05/08_blog-1.jpg"
+    ],
+    "twitter:label1": [
+      "Time to read"
+    ],
+    "twitter:data1": [
+      "Less than a minute"
+    ],
+    "generator": [
+      "WordPress 6.7.11",
+      "Site Kit by Google 1.184.0",
+      "Redux 4.5.13",
+      "Elementor 3.27.2; features: additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap",
+      "Powered by Slider Revolution 6.7.23 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."
+    ],
+    "google-site-verification": [
+      "f7oXrm8neJKLtApXqnSvCDKCZgVooLRixanrmHh-zp4"
+    ]
+  },
+  "head_links": [
+    {
+      "rel": "canonical",
+      "href": "https://www.rotozest.com/blog/",
+      "hreflang": null,
+      "type": null,
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/feed/",
+      "hreflang": null,
+      "type": "application/rss+xml",
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/comments/feed/",
+      "hreflang": null,
+      "type": "application/rss+xml",
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/wp-json/wp/v2/pages/65",
+      "hreflang": null,
+      "type": "application/json",
+      "sizes": null
+    },
+    {
+      "rel": "shortlink",
+      "href": "https://www.rotozest.com/?p=65",
+      "hreflang": null,
+      "type": null,
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rotozest.com%2Fblog%2F",
+      "hreflang": null,
+      "type": "application/json+oembed",
+      "sizes": null
+    },
+    {
+      "rel": "alternate",
+      "href": "https://www.rotozest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.rotozest.com%2Fblog%2F&format=xml",
+      "hreflang": null,
+      "type": "text/xml+oembed",
+      "sizes": null
+    },
+    {
+      "rel": "icon",
+      "href": "https://www.rotozest.com/wp-content/uploads/2025/01/favicon.png",
+      "hreflang": null,
+      "type": "image/png",
+      "sizes": null
+    }
+  ],
+  "jsonld": [],
+  "tracking_ids": [
+    "G-GLK4YTC4EE",
+    "GTM-55ZFLFT4"
+  ],
+  "headings_all": [
+    [
+      "h1",
+      "Blog"
+    ],
+    [
+      "h3",
+      "Read All Updates"
+    ],
+    [
+      "h3",
+      "Gear Pump for Oil Transfer: The Complete Guide"
+    ],
+    [
+      "h3",
+      "Best Rotary Gear Pump Manufacturer for Viscous Liquids in India"
+    ],
+    [
+      "h3",
+      "Benefits of Using SS Rotary Gear Pumps in Chemical Industry"
+    ],
+    [
+      "h3",
+      "How To Make A Simple And Quick Firewood"
+    ],
+    [
+      "h3",
+      "Download Our Brochure Today!"
+    ],
+    [
+      "h4",
+      "Our Products"
+    ],
+    [
+      "h4",
+      "Certifications"
+    ],
+    [
+      "h4",
+      "Reach Us"
+    ]
+  ],
+  "h1": [
+    "Blog"
+  ],
+  "word_count_main": 84,
+  "blocks": [
+    {
+      "t": "h1",
+      "text": "Blog"
+    },
+    {
+      "t": "li",
+      "text": "Home"
+    },
+    {
+      "t": "li",
+      "text": "Blog"
+    },
+    {
+      "t": "h3",
+      "text": "Read All Updates"
+    },
+    {
+      "t": "img",
+      "src": "https://www.rotozest.com/wp-content/uploads/2026/06/Gear-Pump-for-Oil-Transfer.jpg",
+      "alt": "Gear Pump for Oil Transfer",
+      "title": "Gear Pump for Oil Transfer",
+      "w": "700",
+      "h": "425",
+      "srcset": ""
+    },
+    {
+      "t": "h3",
+      "text": "Gear Pump for Oil Transfer: The Complete Guide"
+    },
+    {
+      "t": "li",
+      "text": "Industry"
+    },
+    {
+      "t": "li",
+      "text": "June 21, 2026"
+    },
+    {
+      "t": "img",
+      "src": "https://www.rotozest.com/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry.jpg",
+      "alt": "rotary gear pump for viscous liquid",
+      "title": "rotary gear pump for viscous liquid",
+      "w": "700",
+      "h": "425",
+      "srcset": ""
+    },
+    {
+      "t": "h3",
+      "text": "Best Rotary Gear Pump Manufacturer for Viscous Liquids in India"
+    },
+    {
+      "t": "li",
+      "text": "February 14, 2026"
+    },
+    {
+      "t": "img",
+      "src": "https://www.rotozest.com/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry-1.png",
+      "alt": "SS rotary gear pump for chemical industry",
+      "title": "Benefits of Using SS Rotary Gear Pumps in Chemical Industry (1)",
+      "w": "700",
+      "h": "425",
+      "srcset": ""
+    },
+    {
+      "t": "h3",
+      "text": "Benefits of Using SS Rotary Gear Pumps in Chemical Industry"
+    },
+    {
+      "t": "img",
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/08_blog-1-767x548.jpg",
+      "alt": "08_blog",
+      "title": "08_blog",
+      "w": "767",
+      "h": "548",
+      "srcset": ""
+    },
+    {
+      "t": "h3",
+      "text": "How To Make A Simple And Quick Firewood"
+    },
+    {
+      "t": "li",
+      "text": "May 12, 2022"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/Registered-logo.png",
+      "alt": "Rotozest Logo",
+      "w": "3174",
+      "h": "860",
+      "srcset": "",
+      "in": "header"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/Registered-logo.png",
+      "alt": "Rotozest Logo",
+      "w": "3174",
+      "h": "860",
+      "srcset": "",
+      "in": "header"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/logo.png",
+      "alt": "Rotozest Industries",
+      "w": "3158",
+      "h": "860",
+      "srcset": "",
+      "in": "header"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/logo.png",
+      "alt": "Logo",
+      "w": "3158",
+      "h": "860",
+      "srcset": "",
+      "in": "header"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2026/06/Gear-Pump-for-Oil-Transfer.jpg",
+      "alt": "Gear Pump for Oil Transfer",
+      "w": "700",
+      "h": "425",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry.jpg",
+      "alt": "rotary gear pump for viscous liquid",
+      "w": "700",
+      "h": "425",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2026/02/Benefits-of-Using-SS-Rotary-Gear-Pumps-in-Chemical-Industry-1.png",
+      "alt": "SS rotary gear pump for chemical industry",
+      "w": "700",
+      "h": "425",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/08_blog-1-767x548.jpg",
+      "alt": "08_blog",
+      "w": "767",
+      "h": "548",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/GEAC-rc624e0clojx64xsk76efue9di5zku2tw0mci8c95k.png",
+      "alt": "GEAC",
+      "w": "60",
+      "h": "60",
+      "srcset": "",
+      "in": "footer"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/CE-rc624d2ieuimuiz5porrvcmss4amd4z3jvyv0ydnbs.png",
+      "alt": "CE",
+      "w": "60",
+      "h": "60",
+      "srcset": "",
+      "in": "footer"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/RICL-rc62a5qok2gafyk1v6yy8vz4nnq3txzicksnkds8yg.png",
+      "alt": "RICL",
+      "w": "60",
+      "h": "60",
+      "srcset": "",
+      "in": "footer"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/elementor/thumbs/UAF-rc62a6oiqwhkrkioppdktdql91lh1n38opg51nqus8.png",
+      "alt": "UAF",
+      "w": "60",
+      "h": "60",
+      "srcset": "",
+      "in": "footer"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/plugins/captcha-for-contact-form-7/core/assets/reload-icon.png",
+      "alt": "Reload",
+      "w": "16",
+      "h": "16",
+      "srcset": "",
+      "in": "main"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2022/05/02_breadcrumb-header.jpg",
+      "alt": null,
+      "in": "background"
+    },
+    {
+      "src": "https://www.rotozest.com/wp-content/uploads/2025/01/environmental-pollution-factory-exterior-scaled.jpg",
+      "alt": null,
+      "in": "background"
+    }
+  ],
+  "links": {
+    "internal_paths": [
+      "",
+      "/",
+      "/about-us/",
+      "/applications/",
+      "/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry/",
+      "/best-rotary-gear-pump-manufacturer-for-viscous-liquids-india/",
+      "/blog/",
+      "/careers/",
+      "/category/industry/",
+      "/ci-rotary-gear-pump/",
+      "/contact-us/",
+      "/gear-pump-for-oil-transfer-complete-guide/",
+      "/how-to-make-a-simple-and-quick-firewood/",
+      "/ss-rotary-gear-pump/",
+      "/wp-content/uploads/2025/06/rotozest-brochure.pdf"
+    ],
+    "external": [
+      "https://dsoninfotech.com/",
+      "https://maps.app.goo.gl/nCuzCyAH6anXUjVZA",
+      "https://www.facebook.com/share/19FRVK3iYE/?mibextid=qi2Omg",
+      "https://www.forge12.com",
+      "https://www.instagram.com/rotozest_industries_746?utm_source=qr&igsh=MXg4eWRld3dwdGNxMw=="
+    ],
+    "contact": [
+      "mailto:info@rotozest.com",
+      "tel:+919974017582",
+      "tel:+919974017583"
+    ]
+  },
+  "header_text": "info@rotozest.com +91 99740 17583 | +91 99740 17582 Home About Us Products SS Rotary Gear Pump Manufacturer CI Rotary Gear Pump Applications Careers Blog Contact Us Download Home About Us Products SS Rotary Gear Pump Manufacturer CI Rotary Gear Pump Applications Careers Blog Contact Us Download Home About Us Products SS Rotary Gear Pump Manufacturer CI Rotary Gear Pump Applications Careers Blog Contact Us",
+  "footer_text": "Discover More Download Our Brochure Today! Download Brochure ® Experience excellence with Rotozest Industries. Explore our premium products and services tailored to seamlessly meet your industrial needs. With a focus on innovation, quality, and reliability, we provide tailored solutions designed to enhance your operations and drive efficiency. Our Products SS Rotary Gear Pump CI Rotary Gear Pump Certifications Reach Us +91 99740 17583 +91 99740 17582 info@rotozest.com Shed A/19 Parth Estate, Nr. Muktanand Society, Canal Road, Jamfalwadi, Ramol, Ahmedabad - 382449. 2025 All Rights Reserved. Design by Dson Infotech 2026",
+  "body_classes": [
+    "page-template-default",
+    "page",
+    "page-id-65",
+    "group-blog",
+    "redux-page",
+    "site-h119",
+    "body-default-font",
+    "heading-default-font",
+    "site-404-default",
+    "elementor-default",
+    "elementor-kit-8864",
+    "elementor-page",
+    "elementor-page-65"
+  ],
+  "html_bytes": 131018,
+  "scripts": 30,
+  "stylesheets": 1
+}
