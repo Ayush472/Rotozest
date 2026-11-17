@@ -1,0 +1,43 @@
+{
+ "path": "/blog/",
+ "meta": {
+  "title": "Blog - Rotozest Industries",
+  "description": "Recent Articles",
+  "canonical": "https://www.rotozest.com/blog/",
+  "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+  "ogType": "article",
+  "ogTitle": "Blog - Rotozest Industries",
+  "ogDescription": "Recent Articles",
+  "ogImage": "https://www.rotozest.com/wp-content/uploads/2022/05/08_blog-1.jpg",
+  "ogImageAlt": "Blog",
+  "twitterCard": "summary_large_image",
+  "published": "2022-05-03T07:04:32+00:00",
+  "modified": "2025-05-09T05:35:15+00:00",
+  "section": null,
+  "readTime": null
+ },
+ "h1": "Blog",
+ "html": "Recent Articles            <h3>\nRead All Updates</h3>\n<a href=\"/gear-pump-for-oil-transfer-complete-guide/\"><img src=\"/images/gear-pump-for-oil-transfer.webp\" alt=\"Gear Pump for Oil Transfer\" width=\"700\" height=\"425\" loading=\"lazy\" decoding=\"async\"></a><a href=\"/category/industry/\">Industry</a><h3><a href=\"/gear-pump-for-oil-transfer-complete-guide/\">Gear Pump for Oil Transfer: The Complete Guide</a></h3>\n<ul><li><a href=\"/category/industry/\">Industry</a></li><li>June 21, 2026</li></ul>\n<a href=\"/gear-pump-for-oil-transfer-complete-guide/\">\nRead more\n</a><a href=\"/best-rotary-gear-pump-manufacturer-for-viscous-liquids-india/\"><img src=\"/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry.webp\" alt=\"rotary gear pump for viscous liquid\" width=\"700\" height=\"425\" loading=\"lazy\" decoding=\"async\"></a><a href=\"/category/industry/\">Industry</a><h3><a href=\"/best-rotary-gear-pump-manufacturer-for-viscous-liquids-india/\">Best Rotary Gear Pump Manufacturer for Viscous Liquids in India</a></h3>\n<ul><li><a href=\"/category/industry/\">Industry</a></li><li>February 14, 2026</li></ul>\n<a href=\"/best-rotary-gear-pump-manufacturer-for-viscous-liquids-india/\">\nRead more\n</a><a href=\"/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry/\"><img src=\"/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry-1.webp\" alt=\"SS rotary gear pump for chemical industry\" width=\"700\" height=\"425\" loading=\"lazy\" decoding=\"async\"></a><a href=\"/category/industry/\">Industry</a><h3><a href=\"/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry/\">Benefits of Using SS Rotary Gear Pumps in Chemical Industry</a></h3>\n<ul><li><a href=\"/category/industry/\">Industry</a></li><li>February 14, 2026</li></ul>\n<a href=\"/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry/\">\nRead more\n</a><a href=\"/how-to-make-a-simple-and-quick-firewood/\"></a><a href=\"/category/industry/\">Industry</a><h3><a href=\"/how-to-make-a-simple-and-quick-firewood/\">How To Make A Simple And Quick Firewood</a></h3>\n<ul><li><a href=\"/category/industry/\">Industry</a></li><li>May 12, 2022</li></ul>\n\nIf you have a wood-burning fireplace, chances are you have firewood, right?…\n<a href=\"/how-to-make-a-simple-and-quick-firewood/\">\nRead more\n</a>",
+ "faq": [],
+ "jsonld": [],
+ "images": [
+  {
+   "src": "/images/gear-pump-for-oil-transfer.webp",
+   "alt": "Gear Pump for Oil Transfer",
+   "width": 700,
+   "height": 425
+  },
+  {
+   "src": "/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry.webp",
+   "alt": "rotary gear pump for viscous liquid",
+   "width": 700,
+   "height": 425
+  },
+  {
+   "src": "/images/benefits-of-using-ss-rotary-gear-pumps-in-chemical-industry-1.webp",
+   "alt": "SS rotary gear pump for chemical industry",
+   "width": 700,
+   "height": 425
+  }
+ ]
+}

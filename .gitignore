@@ -34,3 +34,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# raw scrape of the WordPress site (re-creatable)
+scrape/
+.next/
+node_modules/
+next-env.d.ts
+*.tsbuildinfo
+.env*.local
+.vercel

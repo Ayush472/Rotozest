@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rotozest Industries website
 
-## Getting Started
+Replaces the WordPress site at www.rotozest.com with a fast Next.js 16 site. It keeps the same URLs, titles, descriptions, H1s, schema and content, so Google rankings carry over.
 
-First, run the development server:
+- Repository: [AyushPatel0407/rotozest-web](https://github.com/AyushPatel0407/rotozest-web) (moved from `Ayush472/Rotozest` on 17 Nov 2026; full history kept). `main` is the new site; `master` is the old code, kept for reference.
+- Hosting: Netlify (current preview, Trupal's account). Vercel also works with no changes.
+- Node 20.9 or newer (`engines` in `package.json`).
 
+## Run
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
+npm run build && npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment (Netlify → Site configuration → Environment variables, or Vercel → Settings → Environment Variables)
+| Name | Example | Used by |
+|---|---|---|
+| `RESEND_API_KEY` | `re_…` | inquiry, careers and brochure emails |
+| `MAIL_FROM` | `Rotozest Industries <info@rotozest.com>` (domain verified in Resend) | all emails |
+| `MAIL_TO` | `info@rotozest.com` (optional) | team notifications |
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Without these, the forms show a friendly "please email or call us" message.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Scripts
+- `npm run seo:diff`: compares every page with the scraped WordPress HTML (title, description, canonical, robots, H1, headings, schema, FAQs). Run it before each deploy against `npm start`.
+- `npm run images`: rebuilds `public/images` and the 301 map from the scrape in `scrape/` (gitignored).
+- `npm run content -- scrape/html`: re-imports page content from the scraped WordPress HTML.
 
-## Learn More
+## Deploy
+- **Netlify:** `netlify.toml` sets the build (`npm run build`, Node 22). Netlify detects Next.js and runs the API routes (`/api/*`) as functions. Deploy from the dashboard by linking this repo, or from the CLI: `netlify deploy --build --prod`.
+- **Vercel:** import the repo; no settings needed.
+- After the first deploy, set the three email variables above and redeploy.
 
-To learn more about Next.js, take a look at the following resources:
+## 3D pump viewer
+`/ss-rotary-gear-pump/` has a "View in 3D" button. The model is built in code from the product photos (`src/components/pump3d/scene.ts`, three.js); there is no model file to download. It loads only after the click, and the code download starts as soon as a finger or pointer reaches the button. While idle it draws nothing, so phones stay cool. Details and timings: `docs/BUILD-NOTES.md`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Docs
+- `docs/migration/`: full scrape inventory (pages, SEO fields, images, baseline speed)
+- `docs/decisions.md`: hosting, forms, tracking toggles and redirects (all changeable)
+- `docs/brand.md`: colours, type, the gear mark, design rules
+- `docs/3d-models-research.md`: how to make 3D models of the pumps for the product pages
+- `docs/3d-pump-spec.md`: the SS pump 3D model spec, photo evidence and every review/correction round
+- `docs/BUILD-NOTES.md`: what was built, checks run, and what is left before launch
