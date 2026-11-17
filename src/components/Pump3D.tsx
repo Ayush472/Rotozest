@@ -25,6 +25,9 @@ export function Pump3D({ poster, alt }: { poster: StaticImageData; alt: string }
     };
   }, []);
 
+  // Start downloading the 3D code as soon as a finger or pointer reaches the button (≈100–300 ms head start).
+  const prefetch = () => void import("./pump3d/scene");
+
   async function load() {
     if (state === "loading" || state === "ready") return;
     setState("loading");
@@ -45,11 +48,14 @@ export function Pump3D({ poster, alt }: { poster: StaticImageData; alt: string }
       <div ref={box} className={`absolute inset-0 ${state === "ready" ? "cursor-grab active:cursor-grabbing" : ""}`} aria-label={state === "ready" ? `${alt}, interactive 3D model` : undefined} role={state === "ready" ? "img" : undefined} />
       {state !== "ready" ? <Image src={poster} alt={alt} priority sizes="(min-width: 1024px) 560px, 92vw" className="absolute inset-0 size-full object-contain mix-blend-multiply" /> : null}
       {state === "ready" ? (
-        <p className="pointer-events-none absolute inset-x-0 bottom-3 text-center text-[0.9rem] text-muted"><span className="pointer-coarse:hidden">Drag to rotate · scroll to zoom</span><span className="hidden pointer-coarse:inline">Swipe sideways to rotate · pinch to zoom</span></p>
+        <p className="pointer-events-none absolute inset-x-0 bottom-3 text-center text-[0.9rem] text-muted"><span className="pointer-coarse:hidden">Drag to rotate · scroll to zoom</span><span className="hidden pointer-coarse:inline">Drag to rotate · pinch to zoom</span></p>
       ) : (
         <button
           type="button"
           onClick={load}
+          onPointerEnter={prefetch}
+          onTouchStart={prefetch}
+          onFocus={prefetch}
           disabled={state === "loading"}
           className="btn-primary absolute bottom-4 left-1/2 -translate-x-1/2 text-base"
         >

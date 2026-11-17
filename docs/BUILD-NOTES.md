@@ -1,6 +1,6 @@
 # Build notes: Rotozest WordPress → Next.js rebuild
 
-Status as of 17 Nov 2026, branch `redesign`. This file records what was built, how it was checked, and what is left before launch.
+Status as of 17 Nov 2026. Repository: `AyushPatel0407/rotozest-web` (`main`), moved from `Ayush472/Rotozest` (`redesign`) with full history. This file records what was built, how it was checked, and what is left before launch.
 
 ## What this is
 The new site for Rotozest Industries (SS / CI rotary gear pumps, Ahmedabad). It replaces the WordPress/Elementor site at www.rotozest.com. Goals: same content and Google rankings, better visuals, much faster loading. The old code in this repo (an unfinished Next.js 14 attempt) was removed. It is still in git history.
@@ -11,7 +11,8 @@ The new site for Rotozest Industries (SS / CI rotary gear pumps, Ahmedabad). It 
 - Images through `next/image` (AVIF/WebP). Icons from lucide-react.
 - Tracking through `@next/third-parties`: GTM `GTM-55ZFLFT4` and GA4 `G-GLK4YTC4EE`, loaded after the page is interactive. Toggles are in `src/lib/site.ts`.
 - Email through Resend (`src/lib/mail.ts`): inquiry, careers (CV upload) and the brochure email (branded template in `src/lib/email/brochure-email.ts`).
-- 3D: three.js 0.187 plus three-bvh-csg. It only loads on the SS pump page, and only after a click.
+- 3D: three.js 0.187 plus three-bvh-csg (≈191 KB gzipped). It only loads on the SS pump page, and only after a click.
+- Hosting: Netlify for now (Trupal's account, `netlify.toml`); Vercel works unchanged.
 
 ## Pages and SEO parity
 - All 18 real WordPress URLs are kept with a trailing slash: home, about-us, ss/ci pump pages, applications, careers, blog, contact-us, 7 SEO landing pages, 3 blog posts and category/industry.
@@ -47,6 +48,22 @@ The new site for Rotozest Industries (SS / CI rotary gear pumps, Ahmedabad). It 
 - Look:
   - Etched markings are solid matte black. The RZ mark uses the logo SVG, which now has an intrinsic size of 3200 × 868 so it renders sharp.
   - Cast cover is bead-blasted grey; nuts and bolt heads have crisp hex flats.
+- Viewer controls:
+  - Mouse rotate speed is 0.7. Touch is 0.5: the first try at 0.35 felt dead on phones.
+  - Pinch zoom speed is 0.6, with a short coast after release.
+  - The camera can't flip under the floor or straight down.
+  - One finger rotates in every direction. Up/down tilts the pump: a "pan-y" setting that let vertical swipes scroll the page was tried and removed, because users found up/down did nothing. The page scrolls from outside the viewer.
+- Performance (17 Nov 2026):
+  - **Shadow drawn once.** The pump and the light never move, so the soft shadow (a 2048² map with a 24-tap blur) is drawn once instead of every frame.
+  - **Render on demand.** The viewer draws only while something changes (auto-spin, a drag, the coast after release, a resize). Idle, it draws nothing, so the GPU and battery rest.
+  - **Shaders compiled before the reveal.** All shaders are compiled (`compileAsync`) before the photo is swapped out. The first seconds used to stutter at about 10–15 fps while shaders compiled mid-spin; once warm it holds 60 fps.
+  - **Lighter settings on phones.** Pixel ratio is capped at 1.5 instead of 2 (about 45% fewer pixels), and the ambient-occlusion pass uses 8 samples instead of 12 on touch screens.
+  - **Page stays responsive.** The build yields to the browser between its 6 steps, so taps and the spinner stay responsive.
+  - **Prefetch on intent.** The 3D code starts downloading when a finger or pointer reaches the "View in 3D" button.
+  - **Measured on an M3, 1318 px canvas:** about 8 ms of GPU work per frame with AO (4 ms without) and about 2.6 ms CPU. The model has 69 meshes, about 117k triangles and 143 draw calls.
+  - **Load breakdown:** building the pump takes 1.0–1.9 s in the throttled preview browser (about half of it cutting holes with CSG), and shader compile takes 0.15–0.25 s.
+  - **Debug read-out:** `el.__pump.info()` returns frames, buildMs, cutMs, compileMs and matMs.
+  - **Next step if more speed is needed:** bake the cut geometry into a compressed file at build time. That removes the CSG step and three-bvh-csg from the download.
 - Still open: split lock washers, single vs double oblong outline, the exact 15 mm shaft offset, the exact cast-box width.
 
 ## Checks run before this commit
@@ -57,6 +74,7 @@ The new site for Rotozest Industries (SS / CI rotary gear pumps, Ahmedabad). It 
 | `npm run seo:diff` (all pages vs scraped WordPress HTML) | "All pages match on SEO-critical fields" |
 | `node scripts/a11y.mjs` (axe, structural) | only `heading-order` inside the original blog posts. Kept on purpose for SEO parity (headings copied word for word). |
 | URL smoke test on the prod build | `/`, SS page, logo, brochure PDF, sitemap, robots return 200; a theme junk URL returns 308; an unknown URL returns 404 |
+| 3D viewer (17 Nov) | phone emulation 375×812: one-finger drag rotates and tilts; redraws stop when idle; canvas 1.5× on touch; tsc + build pass |
 | Earlier rounds | launch checklist, ui-slop-auditor pass, iOS Simulator (Mobile Safari) test, 3D load time ≈0.5 s after click |
 
 ## Local tools
@@ -67,7 +85,7 @@ The new site for Rotozest Industries (SS / CI rotary gear pumps, Ahmedabad). It 
 
 ## Left before launch (needs Trupal or the client)
 1. Resend: create the API key, verify rotozest.com as the sending domain, then set `RESEND_API_KEY`, `MAIL_FROM` and `MAIL_TO` in Vercel. Until then the forms show the call/email fallback.
-2. Vercel: create the project and deploy `redesign`, run Rich Results Test and PageSpeed on the preview, then move DNS for rotozest.com.
+2. Hosting: the site is on Netlify (Trupal's account) for review. Pick the final host and account (Netlify or Vercel), run Rich Results Test and PageSpeed on it, then move DNS for rotozest.com.
 3. Search Console: keep the same property, resubmit `sitemap.xml`, and URL-inspect the top pages after launch. Keep WordPress offline (not deleted) for 3 months.
 4. Decide the duplicate "Why Choose Rotozest?" block on Home vs About (asked, not answered yet).
 5. Optional: a 3D model for the CI pump page; a written old-vs-new UX comparison.

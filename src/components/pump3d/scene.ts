@@ -193,7 +193,12 @@ function box(w: number, h: number, d: number, at: [number, number, number]) {
 const evaluator = new Evaluator();
 evaluator.attributes = ["position", "normal", "uv"];
 /** Subtract each cutter from `base`, return a mesh. */
+/** Let the browser handle input and paint between heavy build steps (one long task becomes several short ones). */
+const yieldToMain = () => new Promise<void>((r) => setTimeout(r, 0));
+
+let cutMs = 0;
 function cut(base: THREE.BufferGeometry, cutters: THREE.BufferGeometry[], mat: THREE.Material) {
+  const t0 = performance.now();
   const clean = (g: THREE.BufferGeometry) => {
     const n = g.index ? g.toNonIndexed() : g;
     for (const k of Object.keys(n.attributes)) if (!["position", "normal", "uv"].includes(k)) n.deleteAttribute(k);
@@ -207,6 +212,7 @@ function cut(base: THREE.BufferGeometry, cutters: THREE.BufferGeometry[], mat: T
     b.updateMatrixWorld();
     acc = evaluator.evaluate(acc, b, SUBTRACTION);
   }
+  cutMs += performance.now() - t0;
   return new THREE.Mesh(acc.geometry, mat);
 }
 
@@ -508,6 +514,7 @@ async function buildPump(m: Mats) {
     root.add(place(hexHead(13, 6.5, m.zinc), [-24.6, y, z], NX));
   }
 
+  await yieldToMain(); // keep taps and the loading spinner responsive between heavy steps
   // ---------- Base (panel 4 + photo 16 close-up): one casting, solid for the first half from the plate,
   // then split into two arms with an open slot; 4 holes (2 per arm); gusset along each arm's inner edge ----------
   const AW = 44, SLOT = 92, BL = 89, T = 14, SPLIT = 48, HW = SLOT / 2 + AW, r = 6;
@@ -547,6 +554,7 @@ async function buildPump(m: Mats) {
     root.add(new THREE.Mesh(gg, m.iron));
   }
 
+  await yieldToMain(); // keep taps and the loading spinner responsive between heavy steps
   // ---------- Shaft, key, oil seal, bearing housing (panels 1, 2) on the SHAFT axis ----------
   const HX0 = -59; // housing end face
   root.add(cut(latheGeo([[0, HX0 - 38], [6.6, HX0 - 38], [8, HX0 - 36.6], [8, HX0], [0, HX0]], 96, HS), [box(30, 3.2, 5.2, [HX0 - 20, HS + 7.2, 0]), rod(1.5, 4, "x", [HX0 - 38, HS, 0], 24)], m.shaft));
@@ -567,6 +575,7 @@ async function buildPump(m: Mats) {
   );
   for (const a of endHoles) root.add(place(boreLiner(4.95, 12, m), [HX0 + 0.8, HS + 26 * Math.sin(a), 26 * Math.cos(a)], NX));
 
+  await yieldToMain(); // keep taps and the loading spinner responsive between heavy steps
   // ---------- Front flange (panel 5) on the body axis: Ø108 × 25, groove ----------
   const FX0 = 0, FX1 = 20;
   // ≈M6 tapped hole drilled ALONG the shaft into the flange's back face, in the strip left exposed beside each flat
@@ -590,6 +599,7 @@ async function buildPump(m: Mats) {
   // hairline joint between flange and body, trimmed by the flats so it doesn't cover the exposed strip
   root.add(cut(latheGeo([[0, FX1], [50.4, FX1], [50.4, FX1 + 0.6], [0, FX1 + 0.6]], 96), [1, -1].map((s) => box(4, 70, 20, [FX1 + 0.3, H, s * 54])), m.dark));
 
+  await yieldToMain(); // keep taps and the loading spinner responsive between heavy steps
   // ---------- Body + gear ring (panels 6, 7, 8): round with flats both sides, ports on the body axis ----------
   const BX0 = FX1 + 0.6, BX1 = BX0 + 38, GX0 = BX1 + 0.6, GX1 = GX0 + 14, FLAT = 44, PX = BX0 + 19;
   const flatCut = (s: 1 | -1) => box(GX1 - BX0 + 2, 70, 20, [(BX0 + GX1) / 2, H, s * (FLAT + 10)]);
@@ -615,6 +625,7 @@ async function buildPump(m: Mats) {
   root.add(wrapLabel(ovalLabel("SUCTION", true), 51.12, PX, 34, Math.PI + 0.7, 0.21));
   root.add(wrapLabel(topMark(logoBlue), 51.12, PX, 37, -Math.PI / 2, 0.62));
 
+  await yieldToMain(); // keep taps and the loading spinner responsive between heavy steps
   // ---------- Rear cast cover (panel 8): round cast flange Ø104 × 8 with the same flats as the body (round top edge in
   // photos 16, 11, 12-1), 4 acorn nuts near its corners; nameplate box 48 × 72 × 21 on top ----------
   const CF0 = GX1, CF1 = GX1 + 8, CX0 = CF1, CX1 = CF1 + 21, NUTZ = 30, NUTY = 31;
@@ -681,7 +692,9 @@ function studioEnvironment() {
 /** Mount an orbitable viewer in `el`. Returns a cleanup function. */
 export async function mountPump(el: HTMLElement, opts: { reducedMotion: boolean; view?: [number, number, number] }) {
   const renderer = new THREE.WebGLRenderer({ antialias: false, alpha: true, powerPreference: "high-performance" });
-  const dpr = Math.min(window.devicePixelRatio, 2);
+  // Phones: 1.5x is visually the same on a small canvas and ~45% fewer pixels than 2x.
+  const coarse = matchMedia("(pointer: coarse)").matches;
+  const dpr = Math.min(window.devicePixelRatio, coarse ? 1.5 : 2);
   renderer.setPixelRatio(dpr);
   renderer.setSize(el.clientWidth, el.clientHeight);
   renderer.outputColorSpace = THREE.SRGBColorSpace;
@@ -689,6 +702,10 @@ export async function mountPump(el: HTMLElement, opts: { reducedMotion: boolean;
   renderer.toneMappingExposure = 1.3;
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.VSMShadowMap;
+  // The pump and the key light never move (only the camera orbits), so the soft shadow is drawn once,
+  // not every frame. This was the biggest per-frame cost (2048² map + 24-tap blur).
+  renderer.shadowMap.autoUpdate = false;
+  renderer.shadowMap.needsUpdate = true;
   el.appendChild(renderer.domElement);
 
   const scene = new THREE.Scene();
@@ -710,8 +727,12 @@ export async function mountPump(el: HTMLElement, opts: { reducedMotion: boolean;
   key.shadow.bias = -0.0003;
   scene.add(key, new THREE.HemisphereLight(0xffffff, 0x8e959c, 0.18));
 
+  const tMat = performance.now();
   const m = makeMaterials();
+  const matMs = Math.round(performance.now() - tMat);
+  const tBuild = performance.now();
   const { root, size } = await buildPump(m);
+  const buildMs = Math.round(performance.now() - tBuild);
   scene.add(root);
 
   const floor = new THREE.Mesh(new THREE.PlaneGeometry(16, 16), new THREE.ShadowMaterial({ opacity: 0.32 }));
@@ -736,16 +757,17 @@ export async function mountPump(el: HTMLElement, opts: { reducedMotion: boolean;
   controls.enablePan = false;
   controls.zoomSpeed = 0.6;
   // gentler rotation for thumbs than for a mouse (user feedback: "too sensitive for thumb movement")
-  const MOUSE_ROTATE = 0.7, TOUCH_ROTATE = 0.35;
+  // round 2: 0.35 felt dead on phones, 0.5 sits between that and the original 1.0
+  const MOUSE_ROTATE = 0.7, TOUCH_ROTATE = 0.5;
   controls.rotateSpeed = MOUSE_ROTATE;
   renderer.domElement.addEventListener("pointerdown", (e) => {
     controls.rotateSpeed = e.pointerType === "touch" ? TOUCH_ROTATE : MOUSE_ROTATE;
   });
   controls.minDistance = dist * 0.4;
   controls.maxDistance = dist * 1.8;
-  // Phones: a vertical thumb swipe scrolls the page (the browser keeps it); sideways swipes rotate, two fingers
-  // pinch-zoom. Set AFTER OrbitControls, whose constructor forces touch-action: none.
-  renderer.domElement.style.touchAction = "pan-y";
+  // Phones: one finger rotates in every direction (up/down tilts the pump), two fingers pinch-zoom.
+  // OrbitControls sets touch-action: none, so the page scrolls from outside the viewer.
+  // (pan-y was tried: the client found up/down swipes did nothing to the model.)
   controls.minPolarAngle = Math.PI * 0.12; // no flip to a straight-down view
   controls.maxPolarAngle = Math.PI * 0.495;
   controls.autoRotate = !opts.reducedMotion;
@@ -758,20 +780,25 @@ export async function mountPump(el: HTMLElement, opts: { reducedMotion: boolean;
   const composer = new EffectComposer(renderer, rt);
   composer.addPass(new RenderPass(scene, camera));
   const ao = new GTAOPass(scene, camera, el.clientWidth, el.clientHeight);
-  ao.updateGtaoMaterial({ radius: 0.12, distanceExponent: 1.4, thickness: 1, scale: 1.1, samples: 16 });
+  ao.updateGtaoMaterial({ radius: 0.12, distanceExponent: 1.4, thickness: 1, scale: 1.1, samples: coarse ? 8 : 12 });
   ao.blendIntensity = 0.85;
   composer.addPass(ao);
   composer.addPass(new OutputPass());
 
+  let dirty = true;
+  let compileMs = 0;
+  const invalidate = () => (dirty = true);
   // Debug hook to match product-photo angles: el.__pump.look([x, y, z], zoom)
   Object.assign(el, {
     __pump: {
+      info: () => ({ ...renderer.info.render, geometries: renderer.info.memory.geometries, textures: renderer.info.memory.textures, frames, buildMs, compileMs, cutMs: Math.round(cutMs), matMs }),
       look: (d: [number, number, number], zoom = 1) => {
         controls.autoRotate = false;
         camera.fov = 28;
         camera.updateProjectionMatrix();
         camera.position.copy(target).addScaledVector(new THREE.Vector3(...d).normalize(), dist * zoom);
         controls.update();
+        invalidate();
       },
       // Near-orthographic view (very long lens from far away) for drawing-style comparisons.
       ortho: (d: [number, number, number], zoom = 1) => {
@@ -790,6 +817,7 @@ export async function mountPump(el: HTMLElement, opts: { reducedMotion: boolean;
         camera.position.copy(target).addScaledVector(dir, far);
         camera.lookAt(target);
         controls.update();
+        invalidate();
       },
     },
   });
@@ -801,16 +829,32 @@ export async function mountPump(el: HTMLElement, opts: { reducedMotion: boolean;
     camera.aspect = w / h;
     camera.updateProjectionMatrix();
     dist = fit();
+    invalidate();
   });
   ro.observe(el);
 
+  // Compile every shader up front (in parallel where the GPU driver allows), then draw one frame, so the
+  // photo is swapped for a finished model instead of a model that stutters while shaders compile mid-spin.
+  const tCompile = performance.now();
+  await renderer.compileAsync(scene, camera);
+  compileMs = Math.round(performance.now() - tCompile);
+  controls.update();
+  composer.render();
+
+  // Render on demand: draw only while something changes (auto-spin, a drag, the damping coast, a resize).
+  // Once the user lets go and the coast ends, the GPU goes idle instead of redrawing the same picture.
+  let frames = 0;
   let visible = true;
-  const io = new IntersectionObserver(([e]) => (visible = e.isIntersecting));
+  controls.addEventListener("change", invalidate);
+  const io = new IntersectionObserver(([e]) => (visible = e.isIntersecting) && invalidate());
   io.observe(el);
   renderer.setAnimationLoop(() => {
     if (!visible) return;
-    controls.update();
+    const moved = controls.update();
+    if (!moved && !dirty) return;
+    dirty = false;
     composer.render();
+    frames++;
   });
 
   return () => {
