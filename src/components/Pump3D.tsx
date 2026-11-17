@@ -45,7 +45,7 @@ export function Pump3D({ poster, alt }: { poster: StaticImageData; alt: string }
       <div ref={box} className={`absolute inset-0 ${state === "ready" ? "cursor-grab active:cursor-grabbing" : ""}`} aria-label={state === "ready" ? `${alt}, interactive 3D model` : undefined} role={state === "ready" ? "img" : undefined} />
       {state !== "ready" ? <Image src={poster} alt={alt} priority sizes="(min-width: 1024px) 560px, 92vw" className="absolute inset-0 size-full object-contain mix-blend-multiply" /> : null}
       {state === "ready" ? (
-        <p className="pointer-events-none absolute inset-x-0 bottom-3 text-center text-[0.9rem] text-muted">Drag to rotate · pinch or scroll to zoom</p>
+        <p className="pointer-events-none absolute inset-x-0 bottom-3 text-center text-[0.9rem] text-muted"><span className="pointer-coarse:hidden">Drag to rotate · scroll to zoom</span><span className="hidden pointer-coarse:inline">Swipe sideways to rotate · pinch to zoom</span></p>
       ) : (
         <button
           type="button"

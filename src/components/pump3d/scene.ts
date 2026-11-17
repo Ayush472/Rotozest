@@ -689,7 +689,6 @@ export async function mountPump(el: HTMLElement, opts: { reducedMotion: boolean;
   renderer.toneMappingExposure = 1.3;
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.VSMShadowMap;
-  renderer.domElement.style.touchAction = "none";
   el.appendChild(renderer.domElement);
 
   const scene = new THREE.Scene();
@@ -733,9 +732,21 @@ export async function mountPump(el: HTMLElement, opts: { reducedMotion: boolean;
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.target.copy(target);
   controls.enableDamping = true;
+  controls.dampingFactor = 0.12; // short coast after release, no long flick-spin
   controls.enablePan = false;
+  controls.zoomSpeed = 0.6;
+  // gentler rotation for thumbs than for a mouse (user feedback: "too sensitive for thumb movement")
+  const MOUSE_ROTATE = 0.7, TOUCH_ROTATE = 0.35;
+  controls.rotateSpeed = MOUSE_ROTATE;
+  renderer.domElement.addEventListener("pointerdown", (e) => {
+    controls.rotateSpeed = e.pointerType === "touch" ? TOUCH_ROTATE : MOUSE_ROTATE;
+  });
   controls.minDistance = dist * 0.4;
   controls.maxDistance = dist * 1.8;
+  // Phones: a vertical thumb swipe scrolls the page (the browser keeps it); sideways swipes rotate, two fingers
+  // pinch-zoom. Set AFTER OrbitControls, whose constructor forces touch-action: none.
+  renderer.domElement.style.touchAction = "pan-y";
+  controls.minPolarAngle = Math.PI * 0.12; // no flip to a straight-down view
   controls.maxPolarAngle = Math.PI * 0.495;
   controls.autoRotate = !opts.reducedMotion;
   controls.autoRotateSpeed = 0.7;
